@@ -1,0 +1,20 @@
+body {
+	background-image: url(../images/backgroundimage2.jpg);
+	background-size: cover;
+}
+
+.enter {
+	color: white;
+	margin-top: ;
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+	height: 200px;
+    width: 400px;
+    background: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
