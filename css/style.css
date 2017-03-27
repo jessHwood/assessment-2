@@ -4,14 +4,51 @@
 	text-align: center;
 }
 
-.gamepage {
+p.pButton {
+	position: absolute;
+	top: 5px;
+	margin-left: 20px;
+	color: white;
+	border: solid 1px white;
+	padding: 10px;
+	font-size: 30px;
+}
+
+p.qButton {
+	position: absolute;
+	top: 5px;
+	right: 0;
+	margin-right: 40px;
+	color: white;
+	border: solid 1px white;
+	padding: 10px;
+	font-size: 30px;
+}
+
+#gamePage {
 	background-image: url(../images/racebackground.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
+#timon {
+	position: absolute;
+	top: 200px;
+	left: 5px;
+	width: 120px;
+}
+
+#pumba {
+	position: absolute;
+	top: 400px;
+	width: 120px;
+	left: 5px;
+}
+
 .bug {
-	float: right;
+	position: absolute;
+	top: 175px;
+	margin-left: 600px;
 }
 
 
@@ -44,4 +81,9 @@ h1 {
     left: 50%;
     margin-top: -100px;
     margin-left: -200px;
+}
+
+#buttonEnter {
+	font-size: 20px
+
 }
