@@ -26,9 +26,11 @@ p.qButton {
 }
 
 #gamePage {
-	background-image: url(../images/racebackground.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: url(../images/racebackground.jpg) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 
 #timon {
@@ -57,8 +59,9 @@ p.qButton {
 /*Landing page styling*/
 .landingpage {
 	background-image: url(../images/landingpagebackground.jpg);
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 
 
@@ -87,3 +90,31 @@ h1 {
 	font-size: 20px
 
 }
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+	p.pButton, p.qButton {
+		position: relative;
+		float: left;
+	}
+#timon {
+	position: absolute;
+	top: 400px;
+	left: 5px;
+	width: 120px;
+}
+
+#pumba {
+	position: absolute;
+	top: 800px;
+	width: 120px;
+	left: 5px;
+}
+
+.bug {
+	position: absolute;
+	top: 350px;
+	margin-left: 600px;
+}
+
+}
+
